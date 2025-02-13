@@ -22,7 +22,7 @@ Avec la hausse constante de la consommation d'énergie, les émissions de carbon
 Le projet a pour objectif d’analyser ; interpréter et prédire la consommation énergétique des appareils électroménagers d'une maison. Les données utilisées incluent des variables continues comme :
 	Température ;  Humidité ;  Pression ;  Vibrations ;  Lumière ;  Bruit
 
-- Technologies Utilisées
+• Technologies Utilisées
   
 •	Python
 •	Pandas, NumPy, Matplotlib, Seaborn
