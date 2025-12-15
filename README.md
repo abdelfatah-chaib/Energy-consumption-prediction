@@ -1,11 +1,5 @@
-# Data-Analysis-Project
-- Projet de Fin de Semestre (S5) en Module d' Analyse de Données et Classification
-- Titre du projet :  la consommation énergétique des appareils électroménagers 
 
-•	Membre de groupe :
-1.	DEMRAOUI Salma
-2.	CHAIB Abdelfatah
-3.	AIT AISSA Rachid
+#  la consommation énergétique des appareils électroménagers 
 
 •	Description générale :
 
