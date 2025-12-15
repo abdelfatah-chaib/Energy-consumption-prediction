@@ -1,19 +1,19 @@
 #  la consommation énergétique des appareils électroménagers 
 
---	Description générale :
+## Description générale :
 
 Ce projet vise à prédire la consommation énergétique des appareils électroménagers en s'appuyant sur diverses données environnementales, telles que la température, l'humidité, les vibrations, la lumière et le bruit. L'objectif principal est de réduire la consommation d'énergie et les émissions de carbone associées, contribuant ainsi à une gestion énergétique plus efficace.
 Pour collecter ces données, des capteurs et appareils intelligents sont intégrés dans le système. Par exemple :	Capteur de température et d'humidité (DHT22) : Ce capteur, précis et facile à utiliser, mesure les conditions environnementales comme la température et l'humidité. Ces données sont cruciales pour comprendre leur influence sur la consommation énergétique des appareils.
 
---	Problématique :
+## Problématique :
 
 Avec la hausse constante de la consommation d'énergie, les émissions de carbone et de gaz à effet de serre continuent d'augmenter, représentant une menace pour l'environnement. Bien que le secteur industriel soit le principal consommateur d'énergie, le secteur résidentiel joue également un rôle significatif. Les appareils électroménagers représentent une part importante de la consommation d'énergie dans les résidences. Comprendre et prévoir les comportements de consommation énergétique dans ce contexte est essentiel pour identifier des opportunités de réduction d'énergie et d'émissions.
 
---	Objectif du projet :
+## Objectif du projet :
 
 Le projet a pour objectif d’analyser ; interpréter et prédire la consommation énergétique des appareils électroménagers d'une maison. Les données utilisées incluent des variables continues comme :	Température ;  Humidité ;  Pression ;  Vibrations ;  Lumière ;  Bruit
 
--- Technologies Utilisées
+## Technologies Utilisées
   
 -	Python
 -	Pandas, NumPy, Matplotlib, Seaborn
@@ -21,7 +21,7 @@ Le projet a pour objectif d’analyser ; interpréter et prédire la consommatio
 -	XGBoost
 -	Streamlit (pour la visualisation interactive)
 
-- Structure du Projet
+## Structure du Projet
 
 1.	Exploration des Données :
 -	Chargement et nettoyage des données
@@ -58,13 +58,13 @@ Le projet a pour objectif d’analyser ; interpréter et prédire la consommatio
 -	Tableau des prédictions
 
 
-Résultats Obtenus
+## Résultats Obtenus
 
 -	XGBoost a donné les meilleures performances avec un R² de 0.67.
 -	Extra Trees Regressor a été l'un des modèles les plus performants avec un R² de 0.72.
 -	L'optimisation des features a permis d'améliorer les prédictions en supprimant les variables inutiles.
 
-Améliorations Futures
+## Améliorations Futures
 -	Test de modèles plus avancés
 -	Intégration de nouvelles variables pour affiner les prédictions
 
